@@ -1,0 +1,125 @@
+html {
+  background-image: url('img/background.jpg')
+}
+
+body {
+   margin-top: 0px;
+   margin-bottom: 0px;
+   font-family: 'Quicksand', sans-serif;   
+}
+
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 16px;
+}
+
+.page-header {
+    margin-top: 0;
+}
+
+.panel-body {
+    padding-top: 0;
+}
+
+.jumbotron {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: url(../img/food.jpg);
+    background-position: 0% 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    /*opacity : 0.3;*/
+    font-size: 15px;
+}
+
+.page-header {
+    margin-top: 0;
+}
+
+.panel-body {
+    padding-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+  
+.btn-lg {
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #FFFFFF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+/***********************
+  OUTLINE BUTTONS
+************************/
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline {
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    box-shadow: none;
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+
+
